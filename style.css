@@ -1,0 +1,50 @@
+#header{
+    background-image:url("./images/099A5860.JPG");
+    background-size:cover;
+}
+.major-icons{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    width: 175%;
+    height:175%;
+}
+
+.tech-icon {
+    transition: transform 0.3s ease;
+}
+.tech-icon:hover {
+    transform: scale(1.2);
+}
+
+img:active,
+img:focus{
+    height: 90vh;
+    width: auto;
+    position: fixed;
+    top:  50%;
+    left: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    /* filter: brightness(0.6); */
+}
+
+img:hover{
+    cursor: pointer;
+}
+.actions{
+    display: flex;
+    flex-direction: column;
+}
+
+.solo{
+    position: absolute;
+    left: 63%;
+   top: 145%;
+}
+
+#stack{
+    position: absolute;
+    left: 43.5%;
+    top: 220%;
+}
