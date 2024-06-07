@@ -34,13 +34,15 @@ img:hover{
 }
 .actions{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .solo{
     position: absolute;
-    left: 63%;
-   top: 145%;
+    left: 68%;
+   top: 147%;
+   height: 30%;
+   width: 30%;
 }
 
 #stack{
