@@ -6,8 +6,8 @@
     display: flex;
     justify-content: space-between;
     /* background-color: black; */
-    width: 175%;
-    height:175%;
+    width: 150%;
+    height:150%;
 }
 
 .tech-icon {
@@ -37,12 +37,17 @@ img:hover{
     /* flex-direction: column; */
 }
 
-.solo{
-    position: absolute;
-    left: 68%;
-   top: 147%;
+ .solo{
    height: 30%;
    width: 30%;
+} 
+@media only screen and (max-width: 600px){
+    .solo{
+        width: 100%;
+    }
+    .major-icons{
+        width: 100%;
+    }
 }
 
 #stack{
